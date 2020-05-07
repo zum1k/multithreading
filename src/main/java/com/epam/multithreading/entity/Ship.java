@@ -24,6 +24,7 @@ public class Ship implements Runnable {
 
     public void run() {
         SeaPort seaPort = SeaPort.getInstance();
+        seaPort.addShip(this);
 
     }
 
