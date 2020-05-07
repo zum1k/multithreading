@@ -6,7 +6,8 @@ public class Container {
     private int weight;
     private ProductType type;
 
-    public Container(){}
+    public Container() {
+    }
 
     public Container(int weight, ProductType type) {
         this.weight = weight;

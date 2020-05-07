@@ -4,9 +4,10 @@ public class Dock {
     private int id;
     private boolean isDocked;
 
-    public Dock(){}
+    public Dock() {
+    }
 
-    public Dock(int id){
+    public Dock(int id) {
         this.id = id;
     }
 
@@ -26,15 +27,18 @@ public class Dock {
         isDocked = docked;
     }
 
-    public void downloadContainers(){
+    public void downloadContainers() {
 
     }
-    public void unloadContainers(){}
 
-    private boolean isCanDownload(){
-        return  false;
+    public void unloadContainers() {
     }
-    private boolean isCanUnload(){
-        return  false;
+
+    private boolean isCanDownload() {
+        return false;
+    }
+
+    private boolean isCanUnload() {
+        return false;
     }
 }
