@@ -16,7 +16,7 @@ public class SeaPort {
     private static final int DOCKS_NUMBER = 6;
     private static final int WATER_AREA_CAPACITY = 50;
     private final BlockingQueue<Ship> waterAreaQueue = new ArrayBlockingQueue<Ship>(WATER_AREA_CAPACITY);
-    private final BlockingQueue<Ship> dockQueue = new ArrayBlockingQueue<>(DOCKS_NUMBER);
+    private final BlockingQueue<Dock> dockQueue = new ArrayBlockingQueue<>(DOCKS_NUMBER);
     private Map<Integer, Dock> docks;
     private List<Container> containers = new ArrayList<>();
     Semaphore dockCapacity = new Semaphore(DOCKS_NUMBER);
