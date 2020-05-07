@@ -21,24 +21,20 @@ public class SeaPort {
     private List<Container> containers = new ArrayList<>();
     Semaphore dockCapacity = new Semaphore(DOCKS_NUMBER);
 
-    private SeaPort() {
-    }
+    private SeaPort() {}
 
+    //dopisat Singleton
     public static SeaPort getInstance() {
         return INSTANCE;
     }
 
-
     public void removeShip(Ship ship) {
-
     }
 
     public void addShip(Ship ship) {
-
     }
 
     private boolean isCanAddShipToDock() {
         return false;
     }
-
 }
