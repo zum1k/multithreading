@@ -30,4 +30,11 @@ public class Dock {
 
     }
     public void unloadContainers(){}
+
+    private boolean isCanDownload(){
+        return  false;
+    }
+    private boolean isCanUnload(){
+        return  false;
+    }
 }
