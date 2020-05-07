@@ -25,4 +25,9 @@ public class Dock {
     public void setDocked(boolean docked) {
         isDocked = docked;
     }
+
+    public void downloadContainers(){
+
+    }
+    public void unloadContainers(){}
 }
