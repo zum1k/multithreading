@@ -45,7 +45,7 @@ public class Ship implements Runnable {
                 loadContainer(dock.downloadContainers());
             }
         }
-        LOGGER.info("In thread..." + Thread.currentThread().getName() + " Waiting for loading");
+        LOGGER.info("In thread..." + Thread.currentThread().getName() + " Departs from Dock");
         port.returnDock(dock);
     }
 
