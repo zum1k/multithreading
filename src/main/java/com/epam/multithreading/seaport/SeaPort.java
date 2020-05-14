@@ -79,7 +79,7 @@ public class SeaPort {
     public void returnDock(Dock dock) {
         try {
             docks.add(dock);
-            LOGGER.info("In thread.. " + Thread.currentThread().getName() + " Dock " + dock.getId() + " added!!");
+            LOGGER.info("In thread.. " + Thread.currentThread().getName() + " Dock " + dock.getId() + " returned!");
             dockSemaphore.release();
         } catch (Exception e) {
             e.printStackTrace();
