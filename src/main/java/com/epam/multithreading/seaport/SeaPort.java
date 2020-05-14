@@ -16,7 +16,7 @@ public class SeaPort {
     private static SeaPort INSTANCE = new SeaPort();
     private static final int CONTAINER_CAPACITY = 20000;
     private static final int DOCKS_AMOUNT = 6;
-    Semaphore dockSemaphore = new Semaphore(DOCKS_AMOUNT);
+    private Semaphore dockSemaphore = new Semaphore(DOCKS_AMOUNT);
     private static AtomicBoolean initialized = new AtomicBoolean(false);
     private static final Lock lock = new ReentrantLock();
 
@@ -64,7 +64,7 @@ public class SeaPort {
         lock.unlock();
     }
 
-    public Dock getDocks() {
+    public Dock getDock() {
         try {
             dockSemaphore.acquire();
             Dock dock = docks.poll();
@@ -76,7 +76,7 @@ public class SeaPort {
         throw new RuntimeException("Something was wrong in");
     }
 
-    public void returnDocks(Dock dock) {
+    public void returnDock(Dock dock) {
         try {
             docks.add(dock);
            LOGGER.info("In thread.. " + Thread.currentThread().getName() + " Dock " + dock.getId() + " added!!");

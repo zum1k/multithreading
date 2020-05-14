@@ -32,7 +32,7 @@ public class Ship implements Runnable {
     @Override
     public void run() {
         SeaPort port = SeaPort.getInstance();
-        Dock dock = port.getDocks();
+        Dock dock = port.getDock();
         switch (type) {
             case UPLOADING:
                 dock.uploadContainers(this);
@@ -45,10 +45,9 @@ public class Ship implements Runnable {
                 dock.uploadContainers(this);
                 loadContainer(dock.downloadContainers());
                 }
-                break;
         }
         LOGGER.info("In thread..." + Thread.currentThread().getName()+" Waiting for loading");
-        port.returnDocks(dock);
+        port.returnDock(dock);
     }
 
     @Override
