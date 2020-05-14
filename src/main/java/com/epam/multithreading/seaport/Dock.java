@@ -1,43 +1,30 @@
 package com.epam.multithreading.seaport;
 
+import com.epam.multithreading.entity.Container;
+import com.epam.multithreading.entity.Ship;
+
 public class Dock {
     private int id;
-    private boolean isDocked;
+    private SeaPort port;
 
-    public Dock() {
-    }
-
-    public Dock(int id) {
+    Dock(int id, SeaPort port) {
         this.id = id;
+        this.port = port;
     }
 
-    public int getId() {
+    int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void
+    uploadContainers(Ship ship) {
+        Container container = ship.getContainer();
+        port.addContainers(container);
     }
 
-    public boolean isDocked() {
-        return isDocked;
+    public Container downloadContainers() {
+        return port.getContainers();
     }
 
-    public void setDocked(boolean docked) {
-        isDocked = docked;
-    }
 
-    public void downloadContainers() {
-    }
-
-    public void unloadContainers() {
-    }
-
-    private boolean isCanDownload() {
-        return false;
-    }
-
-    private boolean isCanUnload() {
-        return false;
-    }
 }
