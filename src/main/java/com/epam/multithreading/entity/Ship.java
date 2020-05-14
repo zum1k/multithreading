@@ -2,10 +2,13 @@ package com.epam.multithreading.entity;
 
 import com.epam.multithreading.seaport.Dock;
 import com.epam.multithreading.seaport.SeaPort;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
 public class Ship implements Runnable {
+    private static final Logger LOGGER = LogManager.getLogger(Ship.class);
     private ShipType type;
     private Container container = null;
 
@@ -44,7 +47,7 @@ public class Ship implements Runnable {
                 }
                 break;
         }
-        System.out.println("Waiting for loading");
+        LOGGER.info("In thread..." + Thread.currentThread().getName()+" Waiting for loading");
         port.returnDocks(dock);
     }
 
