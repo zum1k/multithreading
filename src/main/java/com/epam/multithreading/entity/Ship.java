@@ -40,13 +40,12 @@ public class Ship implements Runnable {
             case DOWNLOADING:
                 loadContainer(dock.downloadContainers());
                 break;
-            case UPLOADING_DOWNLOADING:
-                {
+            case UPLOADING_DOWNLOADING: {
                 dock.uploadContainers(this);
                 loadContainer(dock.downloadContainers());
-                }
+            }
         }
-        LOGGER.info("In thread..." + Thread.currentThread().getName()+" Waiting for loading");
+        LOGGER.info("In thread..." + Thread.currentThread().getName() + " Waiting for loading");
         port.returnDock(dock);
     }
 
