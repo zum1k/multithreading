@@ -3,6 +3,9 @@ package com.epam.multithreading.seaport;
 import com.epam.multithreading.entity.Container;
 import com.epam.multithreading.entity.Ship;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Dock {
     private int id;
     private SeaPort port;
@@ -16,15 +19,44 @@ public class Dock {
         return id;
     }
 
-    public void
-    uploadContainers(Ship ship) {
+    public boolean download(Ship ship) {
+        if (canDownloadContainer(ship)) {
+            downloadContainer(ship);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean upload(Ship ship) {
+        if (canUploadContainer(ship)) {
+            uploadContainer(ship);
+            return true;
+        }
+        return false;
+    }
+
+    private void uploadContainer(Ship ship) {
         Container container = ship.getContainer();
-        port.addContainers(container);
+        List<Container> containers = new ArrayList<>();
+        while (container != null) {
+            containers.add(container);
+            container = ship.getContainer();
+        }
+        port.addContainers(containers);
     }
 
-    public Container downloadContainers() {
-        return port.getContainers();
+    private void downloadContainer(Ship ship) {
+        List<Container> portContainers = port.getContainers(ship.getCapacity());
+        for (Container container : portContainers) {
+            ship.loadContainer(container);
+        }
     }
 
+    private boolean canUploadContainer(Ship ship) {
+        return SeaPort.CONTAINERS_CAPACITY > port.getContainersSize() + ship.getContainersSize();
+    }
 
+    private boolean canDownloadContainer(Ship ship) {
+        return port.getContainersSize() >= ship.getContainersSize();
+    }
 }

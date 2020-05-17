@@ -5,48 +5,77 @@ import com.epam.multithreading.seaport.SeaPort;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayDeque;
+import java.util.List;
 import java.util.Objects;
+import java.util.Queue;
 
 public class Ship implements Runnable {
     private static final Logger LOGGER = LogManager.getLogger(Ship.class);
+    private int capacity;
     private ShipType type;
-    private Container container = null;
+    private Queue<Container> containers;
 
-    public Ship(ShipType type) {
+    public Ship() {
+    }
+
+    public Ship(ShipType type, int capacity) {
+        containers = new ArrayDeque<>();
+        this.capacity = capacity;
         this.type = type;
     }
 
-    public Ship(ShipType type, Container container) {
+    public Ship(ShipType type, int capacity, List<Container> productContainers) {
+        this.capacity = capacity;
         this.type = type;
-        this.container = container;
+        this.containers = new ArrayDeque<>();
+        containers.addAll(productContainers);
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 
     public Container getContainer() {
-        return container;
+        return containers.poll();
     }
 
     public void loadContainer(Container container) {
-        this.container = container;
+        containers.add(container);
+    }
+
+    public int getContainersSize() {
+        return containers.size();
     }
 
     @Override
     public void run() {
         SeaPort port = SeaPort.getInstance();
-        Dock dock = port.getDock();
-        switch (type) {
-            case UPLOADING:
-                dock.uploadContainers(this);
-                break;
-            case DOWNLOADING:
-                loadContainer(dock.downloadContainers());
-                break;
-            case UPLOADING_DOWNLOADING: {
-                dock.uploadContainers(this);
-                loadContainer(dock.downloadContainers());
+        boolean isTerminated = false;
+        while (!isTerminated) {
+            Dock dock = port.getDock();
+            switch (type) {
+                case UPLOADING:
+                    isTerminated = dock.upload(this);
+                    break;
+                case DOWNLOADING:
+                    isTerminated = dock.download(this);
+                    break;
+                case UPLOADING_DOWNLOADING: {
+                    isTerminated = dock.upload(this);
+                    if (!isTerminated) {
+                        break;
+                    }
+                    isTerminated = dock.download(this);
+                }
             }
+            LOGGER.info("In thread..." + Thread.currentThread().getName() + " Departs from Dock");
+            port.returnDock(dock);
         }
-        LOGGER.info("In thread..." + Thread.currentThread().getName() + " Departs from Dock");
-        port.returnDock(dock);
     }
 
     @Override
@@ -58,20 +87,22 @@ public class Ship implements Runnable {
             return false;
         }
         Ship ship = (Ship) o;
-        return type == ship.type &&
-                container.equals(ship.container);
+        return capacity == ship.capacity &&
+                type == ship.type &&
+                Objects.equals(containers, ship.containers);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(type, container);
+        return Objects.hash(capacity, type, containers);
     }
 
     @Override
     public String toString() {
         return new StringBuilder().append("Ship{" +
-                "type=" + type +
-                ", container=" + container +
+                "capacity=" + capacity +
+                ", type=" + type +
+                ", containers=" + containers +
                 '}').toString();
     }
 }

@@ -1,207 +1,528 @@
-2020-05-14 10:52:49.756 [Ship 20] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 20 Dock 5 used!!
-2020-05-14 10:52:49.756 [Ship 19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 19 Dock 3 used!!
-2020-05-14 10:52:49.756 [Ship 1] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 1 Dock 2 used!!
-2020-05-14 10:52:49.756 [Ship 37] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 37 Dock 1 used!!
-2020-05-14 10:52:49.756 [Ship 18] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 18 Dock 4 used!!
-2020-05-14 10:52:49.758 [Ship 20] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 20 containers removed!!
-2020-05-14 10:52:49.759 [Ship 1] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 1 containers removed!!
-2020-05-14 10:52:49.759 [Ship 20] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 20 Departs from Dock
-2020-05-14 10:52:49.759 [Ship 20] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 20 Dock 5 added!!
-2020-05-14 10:52:49.759 [Ship 37] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 37 containers added!
-2020-05-14 10:52:49.759 [Ship 1] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 1 Departs from Dock
-2020-05-14 10:52:49.759 [Ship 37] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 37 Departs from Dock
-2020-05-14 10:52:49.759 [Ship 18] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 18 containers added!
-2020-05-14 10:52:49.759 [Ship 21] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 21 Dock 6 used!!
-2020-05-14 10:52:49.759 [Ship 1] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 1 Dock 2 added!!
-2020-05-14 10:52:49.759 [Ship 18] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 18 Departs from Dock
-2020-05-14 10:52:49.759 [Ship 37] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 37 Dock 1 added!!
-2020-05-14 10:52:49.759 [Ship 19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 19 containers added!
-2020-05-14 10:52:49.759 [Ship 22] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 22 Dock 5 used!!
-2020-05-14 10:52:49.759 [Ship 18] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 18 Dock 4 added!!
-2020-05-14 10:52:49.759 [Ship 30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 30 Dock 2 used!!
-2020-05-14 10:52:49.759 [Ship 19] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 19 Departs from Dock
-2020-05-14 10:52:49.759 [Ship 21] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 21 containers added!
-2020-05-14 10:52:49.760 [Ship 19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 19 Dock 3 added!!
-2020-05-14 10:52:49.760 [Ship 22] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 22 containers added!
-2020-05-14 10:52:49.760 [Ship 21] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 21 Departs from Dock
-2020-05-14 10:52:49.760 [Ship 12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 12 Dock 1 used!!
-2020-05-14 10:52:49.760 [Ship 21] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 21 Dock 6 added!!
-2020-05-14 10:52:49.760 [Ship 12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 12 containers removed!!
-2020-05-14 10:52:49.760 [Ship 22] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 22 Departs from Dock
-2020-05-14 10:52:49.760 [Ship 43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 43 Dock 3 used!!
-2020-05-14 10:52:49.760 [Ship 30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 30 containers added!
-2020-05-14 10:52:49.760 [Ship 12] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 12 Departs from Dock
-2020-05-14 10:52:49.760 [Ship 22] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 22 Dock 5 added!!
-2020-05-14 10:52:49.760 [Ship 30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 30 containers removed!!
-2020-05-14 10:52:49.760 [Ship 6] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 6 Dock 4 used!!
-2020-05-14 10:52:49.760 [Ship 12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 12 Dock 1 added!!
-2020-05-14 10:52:49.760 [Ship 30] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 30 Departs from Dock
-2020-05-14 10:52:49.760 [Ship 6] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 6 containers removed!!
-2020-05-14 10:52:49.761 [Ship 30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 30 Dock 2 added!!
-2020-05-14 10:52:49.761 [Ship 49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 49 Dock 6 used!!
-2020-05-14 10:52:49.761 [Ship 43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 43 containers removed!!
-2020-05-14 10:52:49.761 [Ship 17] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 17 Dock 5 used!!
-2020-05-14 10:52:49.761 [Ship 6] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 6 Departs from Dock
-2020-05-14 10:52:49.761 [Ship 44] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 44 Dock 1 used!!
-2020-05-14 10:52:49.761 [Ship 17] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 17 containers removed!!
-2020-05-14 10:52:49.761 [Ship 6] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 6 Dock 4 added!!
-2020-05-14 10:52:49.761 [Ship 49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 49 containers added!
-2020-05-14 10:52:49.761 [Ship 43] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 43 Departs from Dock
-2020-05-14 10:52:49.762 [Ship 49] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 49 Departs from Dock
-2020-05-14 10:52:49.762 [Ship 44] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 44 containers removed!!
-2020-05-14 10:52:49.762 [Ship 43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 43 Dock 3 added!!
-2020-05-14 10:52:49.762 [Ship 49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 49 Dock 6 added!!
-2020-05-14 10:52:49.762 [Ship 44] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 44 Departs from Dock
-2020-05-14 10:52:49.761 [Ship 17] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 17 Departs from Dock
-2020-05-14 10:52:49.762 [Ship 3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 3 Dock 2 used!!
-2020-05-14 10:52:49.762 [Ship 16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 16 Dock 4 used!!
-2020-05-14 10:52:49.762 [Ship 17] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 17 Dock 5 added!!
-2020-05-14 10:52:49.762 [Ship 44] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 44 Dock 1 added!!
-2020-05-14 10:52:49.762 [Ship 3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 3 containers added!
-2020-05-14 10:52:49.762 [Ship 10] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 10 Dock 3 used!!
-2020-05-14 10:52:49.763 [Ship 3] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 3 Departs from Dock
-2020-05-14 10:52:49.763 [Ship 10] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 10 containers removed!!
-2020-05-14 10:52:49.762 [Ship 14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 14 Dock 6 used!!
-2020-05-14 10:52:49.763 [Ship 3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 3 Dock 2 added!!
-2020-05-14 10:52:49.763 [Ship 16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 16 containers added!
-2020-05-14 10:52:49.763 [Ship 11] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 11 Dock 1 used!!
-2020-05-14 10:52:49.763 [Ship 10] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 10 Departs from Dock
-2020-05-14 10:52:49.763 [Ship 10] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 10 Dock 3 added!!
-2020-05-14 10:52:49.763 [Ship 9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 9 Dock 5 used!!
-2020-05-14 10:52:49.763 [Ship 40] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 40 Dock 2 used!!
-2020-05-14 10:52:49.763 [Ship 11] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 11 containers removed!!
-2020-05-14 10:52:49.763 [Ship 11] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 11 Departs from Dock
-2020-05-14 10:52:49.764 [Ship 14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 14 containers added!
-2020-05-14 10:52:49.764 [Ship 11] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 11 Dock 1 added!!
-2020-05-14 10:52:49.764 [Ship 14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 14 containers removed!!
-2020-05-14 10:52:49.764 [Ship 15] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 15 Dock 3 used!!
-2020-05-14 10:52:49.764 [Ship 16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 16 containers removed!!
-2020-05-14 10:52:49.764 [Ship 14] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 14 Departs from Dock
-2020-05-14 10:52:49.764 [Ship 16] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 16 Departs from Dock
-2020-05-14 10:52:49.764 [Ship 14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 14 Dock 6 added!!
-2020-05-14 10:52:49.764 [Ship 9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 9 containers added!
-2020-05-14 10:52:49.764 [Ship 16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 16 Dock 4 added!!
-2020-05-14 10:52:49.764 [Ship 9] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 9 Departs from Dock
-2020-05-14 10:52:49.765 [Ship 40] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 40 containers added!
-2020-05-14 10:52:49.765 [Ship 9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 9 Dock 5 added!!
-2020-05-14 10:52:49.765 [Ship 39] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 39 Dock 1 used!!
-2020-05-14 10:52:49.765 [Ship 40] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 40 Departs from Dock
-2020-05-14 10:52:49.765 [Ship 40] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 40 Dock 2 added!!
-2020-05-14 10:52:49.765 [Ship 39] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 39 containers added!
-2020-05-14 10:52:49.765 [Ship 39] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 39 Departs from Dock
-2020-05-14 10:52:49.766 [Ship 39] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 39 Dock 1 added!!
-2020-05-14 10:52:49.766 [Ship 15] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 15 containers added!
-2020-05-14 10:52:49.766 [Ship 15] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 15 Departs from Dock
-2020-05-14 10:52:49.766 [Ship 15] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 15 Dock 3 added!!
-2020-05-14 10:52:49.766 [Ship 41] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 41 Dock 4 used!!
-2020-05-14 10:52:49.765 [Ship 5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 5 Dock 6 used!!
-2020-05-14 10:52:49.766 [Ship 41] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 41 containers removed!!
-2020-05-14 10:52:49.766 [Ship 38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 38 Dock 5 used!!
-2020-05-14 10:52:49.766 [Ship 41] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 41 Departs from Dock
-2020-05-14 10:52:49.766 [Ship 47] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 47 Dock 2 used!!
-2020-05-14 10:52:49.766 [Ship 38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 38 containers removed!!
-2020-05-14 10:52:49.766 [Ship 41] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 41 Dock 4 added!!
-2020-05-14 10:52:49.766 [Ship 13] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 13 Dock 1 used!!
-2020-05-14 10:52:49.766 [Ship 38] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 38 Departs from Dock
-2020-05-14 10:52:49.766 [Ship 5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 5 containers added!
-2020-05-14 10:52:49.767 [Ship 5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 5 containers removed!!
-2020-05-14 10:52:49.767 [Ship 38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 38 Dock 5 added!!
-2020-05-14 10:52:49.767 [Ship 5] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 5 Departs from Dock
-2020-05-14 10:52:49.767 [Ship 47] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 47 containers added!
-2020-05-14 10:52:49.767 [Ship 2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 2 Dock 4 used!!
-2020-05-14 10:52:49.767 [Ship 7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 7 Dock 3 used!!
-2020-05-14 10:52:49.767 [Ship 2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 2 containers added!
-2020-05-14 10:52:49.767 [Ship 5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 5 Dock 6 added!!
-2020-05-14 10:52:49.767 [Ship 2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 2 containers removed!!
-2020-05-14 10:52:49.767 [Ship 42] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 42 Dock 5 used!!
-2020-05-14 10:52:49.767 [Ship 2] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 2 Departs from Dock
-2020-05-14 10:52:49.767 [Ship 42] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 42 containers removed!!
-2020-05-14 10:52:49.767 [Ship 47] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 47 Departs from Dock
-2020-05-14 10:52:49.767 [Ship 2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 2 Dock 4 added!!
-2020-05-14 10:52:49.767 [Ship 42] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 42 Departs from Dock
-2020-05-14 10:52:49.767 [Ship 47] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 47 Dock 2 added!!
-2020-05-14 10:52:49.767 [Ship 13] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 13 containers removed!!
-2020-05-14 10:52:49.767 [Ship 42] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 42 Dock 5 added!!
-2020-05-14 10:52:49.767 [Ship 45] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 45 Dock 6 used!!
-2020-05-14 10:52:49.767 [Ship 48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 48 Dock 4 used!!
-2020-05-14 10:52:49.767 [Ship 13] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 13 Departs from Dock
-2020-05-14 10:52:49.767 [Ship 45] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 45 containers added!
-2020-05-14 10:52:49.767 [Ship 35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 35 Dock 2 used!!
-2020-05-14 10:52:49.767 [Ship 13] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 13 Dock 1 added!!
-2020-05-14 10:52:49.768 [Ship 45] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 45 Departs from Dock
-2020-05-14 10:52:49.768 [Ship 7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 7 containers added!
-2020-05-14 10:52:49.768 [Ship 46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 46 Dock 5 used!!
-2020-05-14 10:52:49.768 [Ship 45] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 45 Dock 6 added!!
-2020-05-14 10:52:49.768 [Ship 7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 7 containers removed!!
-2020-05-14 10:52:49.768 [Ship 7] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 7 Departs from Dock
-2020-05-14 10:52:49.768 [Ship 24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 24 Dock 1 used!!
-2020-05-14 10:52:49.768 [Ship 48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 48 containers added!
-2020-05-14 10:52:49.768 [Ship 7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 7 Dock 3 added!!
-2020-05-14 10:52:49.768 [Ship 48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 48 containers removed!!
-2020-05-14 10:52:49.768 [Ship 48] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 48 Departs from Dock
-2020-05-14 10:52:49.768 [Ship 35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 35 containers added!
-2020-05-14 10:52:49.768 [Ship 48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 48 Dock 4 added!!
-2020-05-14 10:52:49.768 [Ship 0] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 0 Dock 6 used!!
-2020-05-14 10:52:49.768 [Ship 35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 35 containers removed!!
-2020-05-14 10:52:49.768 [Ship 31] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 31 Dock 3 used!!
-2020-05-14 10:52:49.768 [Ship 35] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 35 Departs from Dock
-2020-05-14 10:52:49.768 [Ship 46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 46 containers removed!!
-2020-05-14 10:52:49.768 [Ship 35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 35 Dock 2 added!!
-2020-05-14 10:52:49.768 [Ship 46] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 46 Departs from Dock
-2020-05-14 10:52:49.768 [Ship 24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 24 containers added!
-2020-05-14 10:52:49.768 [Ship 27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 27 Dock 4 used!!
-2020-05-14 10:52:49.768 [Ship 46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 46 Dock 5 added!!
-2020-05-14 10:52:49.768 [Ship 24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 24 containers removed!!
-2020-05-14 10:52:49.768 [Ship 0] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 0 containers added!
-2020-05-14 10:52:49.768 [Ship 34] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 34 Dock 2 used!!
-2020-05-14 10:52:49.768 [Ship 24] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 24 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 31] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 31 containers removed!!
-2020-05-14 10:52:49.769 [Ship 0] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 0 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 24 Dock 1 added!!
-2020-05-14 10:52:49.769 [Ship 31] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 31 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 27 containers removed!!
-2020-05-14 10:52:49.769 [Ship 0] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 0 Dock 6 added!!
-2020-05-14 10:52:49.769 [Ship 31] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 31 Dock 3 added!!
-2020-05-14 10:52:49.769 [Ship 33] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 33 Dock 5 used!!
-2020-05-14 10:52:49.769 [Ship 34] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 34 containers removed!!
-2020-05-14 10:52:49.769 [Ship 27] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 27 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 29] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 29 Dock 1 used!!
-2020-05-14 10:52:49.769 [Ship 34] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 34 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 27 Dock 4 added!!
-2020-05-14 10:52:49.769 [Ship 33] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 33 containers added!
-2020-05-14 10:52:49.769 [Ship 34] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 34 Dock 2 added!!
-2020-05-14 10:52:49.769 [Ship 33] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 33 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 32 Dock 6 used!!
-2020-05-14 10:52:49.769 [Ship 33] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 33 Dock 5 added!!
-2020-05-14 10:52:49.769 [Ship 26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 26 Dock 3 used!!
-2020-05-14 10:52:49.769 [Ship 29] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 29 containers removed!!
-2020-05-14 10:52:49.769 [Ship 29] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 29 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 25 Dock 4 used!!
-2020-05-14 10:52:49.769 [Ship 36] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 36 Dock 2 used!!
-2020-05-14 10:52:49.769 [Ship 32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 32 containers removed!!
-2020-05-14 10:52:49.769 [Ship 29] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 29 Dock 1 added!!
-2020-05-14 10:52:49.769 [Ship 32] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 32 Departs from Dock
-2020-05-14 10:52:49.769 [Ship 26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 26 containers added!
-2020-05-14 10:52:49.769 [Ship 8] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 8 Dock 5 used!!
-2020-05-14 10:52:49.770 [Ship 32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 32 Dock 6 added!!
-2020-05-14 10:52:49.770 [Ship 26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 26 containers removed!!
-2020-05-14 10:52:49.770 [Ship 26] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 26 Departs from Dock
-2020-05-14 10:52:49.770 [Ship 25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 25 containers added!
-2020-05-14 10:52:49.770 [Ship 26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 26 Dock 3 added!!
-2020-05-14 10:52:49.770 [Ship 23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 23 Dock 1 used!!
-2020-05-14 10:52:49.770 [Ship 25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 25 containers removed!!
-2020-05-14 10:52:49.770 [Ship 25] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 25 Departs from Dock
-2020-05-14 10:52:49.770 [Ship 36] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 36 containers removed!!
-2020-05-14 10:52:49.770 [Ship 28] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 28 Dock 6 used!!
-2020-05-14 10:52:49.770 [Ship 25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 25 Dock 4 added!!
-2020-05-14 10:52:49.770 [Ship 36] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 36 Departs from Dock
-2020-05-14 10:52:49.770 [Ship 8] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 8 containers removed!!
-2020-05-14 10:52:49.770 [Ship 36] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 36 Dock 2 added!!
-2020-05-14 10:52:49.770 [Ship 8] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 8 Departs from Dock
-2020-05-14 10:52:49.770 [Ship 23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 23 containers added!
-2020-05-14 10:52:49.770 [Ship 8] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 8 Dock 5 added!!
-2020-05-14 10:52:49.770 [Ship 23] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 23 Departs from Dock
-2020-05-14 10:52:49.770 [Ship 23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 23 Dock 1 added!!
-2020-05-14 10:52:49.770 [Ship 28] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 28 containers removed!!
-2020-05-14 10:52:49.770 [Ship 28] INFO  com.epam.multithreading.entity.Ship - In thread...Ship 28 Departs from Dock
-2020-05-14 10:52:49.770 [Ship 28] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship 28 Dock 6 added!!
+2020-05-17 22:43:24.232 [main] INFO  com.epam.multithreading.reader.FileReader - Data has been read:
+2020-05-17 22:43:24.274 [Ship-18] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-18 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-17] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-17 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-15] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-15 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-0] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-0 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-20] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-20 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-17] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-17 Dock 1 used!!
+2020-05-17 22:43:24.274 [Ship-23] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-23 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-23 Dock 2 used!!
+2020-05-17 22:43:24.274 [Ship-22] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-22 trying to get resource.
+2020-05-17 22:43:24.274 [Ship-26] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-26 trying to get resource.
+2020-05-17 22:43:24.274 [Ship-73] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-73 trying to get resource.
+2020-05-17 22:43:24.274 [Ship-99] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-99 trying to get resource.
+2020-05-17 22:43:24.274 [Ship-24] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-24 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-3] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-3 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-27] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-27 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-21] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-21 trying to get resource.
+2020-05-17 22:43:24.275 [Ship-19] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-19 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-29] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-29 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-30] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-30 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-13] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-13 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-16] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-16 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-12] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-12 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-25] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-25 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-11] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-11 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-98] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-98 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-14] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-14 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-28] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-28 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-9] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-9 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-10] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-10 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-97] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-97 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-32] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-32 trying to get resource.
+2020-05-17 22:43:24.276 [Ship-31] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-31 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-34] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-34 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-8] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-8 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-7] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-7 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-33] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-33 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-35] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-35 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-6] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-6 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-17] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-17 containers removed!!
+2020-05-17 22:43:24.277 [Ship-37] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-37 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-36] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-36 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-4] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-4 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-2] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-2 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-38] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-38 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-1] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-1 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-17] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-17 Departs from Dock
+2020-05-17 22:43:24.278 [Ship-40] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-40 trying to get resource.
+2020-05-17 22:43:24.277 [Ship-5] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-5 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-17] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-17 Dock 1 returned!
+2020-05-17 22:43:24.278 [Ship-39] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-39 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-42] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-42 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-41] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-41 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-43] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-43 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-44] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-44 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-49] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-49 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-48] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-48 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-47] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-47 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-45] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-45 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-50] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-50 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-46] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-46 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-96] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-96 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-95] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-95 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-51] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-51 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-52] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-52 trying to get resource.
+2020-05-17 22:43:24.280 [Ship-72] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-72 trying to get resource.
+2020-05-17 22:43:24.280 [Ship-93] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-93 trying to get resource.
+2020-05-17 22:43:24.280 [Ship-71] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-71 trying to get resource.
+2020-05-17 22:43:24.280 [Ship-15] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-15 Dock 3 used!!
+2020-05-17 22:43:24.280 [Ship-74] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-74 trying to get resource.
+2020-05-17 22:43:24.280 [Ship-75] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-75 trying to get resource.
+2020-05-17 22:43:24.280 [Ship-70] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-70 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-92] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-92 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-69] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-69 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-76] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-76 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-78] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-78 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-79] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-79 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-77] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-77 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-66] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-66 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-68] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-68 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-82] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-82 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-81] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-81 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-80] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-80 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-84] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-84 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-67] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-67 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-83] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-83 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-85] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-85 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-64] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-64 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-65] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-65 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-86] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-86 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-87] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-87 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-88] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-88 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-62] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-62 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-89] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-89 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-91] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-91 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-63] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-63 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-90] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-90 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-61] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-61 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-60] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-60 trying to get resource.
+2020-05-17 22:43:24.283 [Ship-15] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-15 containers removed!!
+2020-05-17 22:43:24.279 [Ship-57] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-57 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-59] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-59 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-58] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-58 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-94] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-94 trying to get resource.
+2020-05-17 22:43:24.279 [Ship-56] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-56 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-54] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-54 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-53] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-53 trying to get resource.
+2020-05-17 22:43:24.278 [Ship-55] INFO  com.epam.multithreading.seaport.SeaPort - In thread... Ship-55 trying to get resource.
+2020-05-17 22:43:24.283 [Ship-18] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-18 Dock 4 used!!
+2020-05-17 22:43:24.283 [Ship-15] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-15 Departs from Dock
+2020-05-17 22:43:24.283 [Ship-0] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-0 Dock 5 used!!
+2020-05-17 22:43:24.283 [Ship-0] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-0 containers removed!!
+2020-05-17 22:43:24.283 [Ship-20] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-20 Dock 6 used!!
+2020-05-17 22:43:24.284 [Ship-0] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-0 Departs from Dock
+2020-05-17 22:43:24.284 [Ship-23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-23 containers added!
+2020-05-17 22:43:24.284 [Ship-22] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-22 Dock 1 used!!
+2020-05-17 22:43:24.284 [Ship-15] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-15 Dock 3 returned!
+2020-05-17 22:43:24.284 [Ship-26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-26 Dock 3 used!!
+2020-05-17 22:43:24.284 [Ship-18] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-18 containers added!
+2020-05-17 22:43:24.284 [Ship-0] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-0 Dock 5 returned!
+2020-05-17 22:43:24.284 [Ship-18] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-18 Departs from Dock
+2020-05-17 22:43:24.284 [Ship-73] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-73 Dock 5 used!!
+2020-05-17 22:43:24.285 [Ship-73] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-73 containers removed!!
+2020-05-17 22:43:24.285 [Ship-20] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-20 containers added!
+2020-05-17 22:43:24.285 [Ship-20] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-20 Departs from Dock
+2020-05-17 22:43:24.285 [Ship-23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-23 containers removed!!
+2020-05-17 22:43:24.285 [Ship-73] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-73 Departs from Dock
+2020-05-17 22:43:24.285 [Ship-22] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-22 containers added!
+2020-05-17 22:43:24.285 [Ship-23] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-23 Departs from Dock
+2020-05-17 22:43:24.285 [Ship-18] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-18 Dock 4 returned!
+2020-05-17 22:43:24.285 [Ship-22] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-22 Departs from Dock
+2020-05-17 22:43:24.285 [Ship-26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-26 containers added!
+2020-05-17 22:43:24.289 [Ship-26] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-26 Departs from Dock
+2020-05-17 22:43:24.289 [Ship-99] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-99 Dock 4 used!!
+2020-05-17 22:43:24.290 [Ship-20] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-20 Dock 6 returned!
+2020-05-17 22:43:24.290 [Ship-24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-24 Dock 6 used!!
+2020-05-17 22:43:24.290 [Ship-73] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-73 Dock 5 returned!
+2020-05-17 22:43:24.290 [Ship-23] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-23 Dock 2 returned!
+2020-05-17 22:43:24.290 [Ship-27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-27 Dock 5 used!!
+2020-05-17 22:43:24.290 [Ship-22] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-22 Dock 1 returned!
+2020-05-17 22:43:24.290 [Ship-26] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-26 Dock 3 returned!
+2020-05-17 22:43:24.290 [Ship-99] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-99 containers added!
+2020-05-17 22:43:24.290 [Ship-3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-3 Dock 2 used!!
+2020-05-17 22:43:24.291 [Ship-24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-24 containers added!
+2020-05-17 22:43:24.291 [Ship-21] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-21 Dock 1 used!!
+2020-05-17 22:43:24.291 [Ship-27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-27 containers added!
+2020-05-17 22:43:24.291 [Ship-24] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-24 Departs from Dock
+2020-05-17 22:43:24.291 [Ship-19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-19 Dock 3 used!!
+2020-05-17 22:43:24.291 [Ship-21] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-21 containers added!
+2020-05-17 22:43:24.291 [Ship-21] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-21 Departs from Dock
+2020-05-17 22:43:24.291 [Ship-99] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-99 containers removed!!
+2020-05-17 22:43:24.291 [Ship-3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-3 containers added!
+2020-05-17 22:43:24.291 [Ship-99] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-99 Departs from Dock
+2020-05-17 22:43:24.291 [Ship-27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-27 containers removed!!
+2020-05-17 22:43:24.291 [Ship-24] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-24 Dock 6 returned!
+2020-05-17 22:43:24.291 [Ship-27] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-27 Departs from Dock
+2020-05-17 22:43:24.292 [Ship-21] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-21 Dock 1 returned!
+2020-05-17 22:43:24.292 [Ship-19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-19 containers added!
+2020-05-17 22:43:24.292 [Ship-3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-3 containers removed!!
+2020-05-17 22:43:24.292 [Ship-99] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-99 Dock 4 returned!
+2020-05-17 22:43:24.292 [Ship-29] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-29 Dock 6 used!!
+2020-05-17 22:43:24.292 [Ship-27] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-27 Dock 5 returned!
+2020-05-17 22:43:24.292 [Ship-3] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-3 Departs from Dock
+2020-05-17 22:43:24.292 [Ship-30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-30 Dock 1 used!!
+2020-05-17 22:43:24.292 [Ship-29] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-29 containers added!
+2020-05-17 22:43:24.292 [Ship-30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-30 containers added!
+2020-05-17 22:43:24.292 [Ship-29] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-29 Departs from Dock
+2020-05-17 22:43:24.293 [Ship-30] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-30 Departs from Dock
+2020-05-17 22:43:24.293 [Ship-19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-19 containers removed!!
+2020-05-17 22:43:24.293 [Ship-13] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-13 Dock 4 used!!
+2020-05-17 22:43:24.293 [Ship-19] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-19 Departs from Dock
+2020-05-17 22:43:24.293 [Ship-13] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-13 containers removed!!
+2020-05-17 22:43:24.293 [Ship-16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-16 Dock 5 used!!
+2020-05-17 22:43:24.293 [Ship-13] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-13 Departs from Dock
+2020-05-17 22:43:24.293 [Ship-16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-16 containers removed!!
+2020-05-17 22:43:24.293 [Ship-3] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-3 Dock 2 returned!
+2020-05-17 22:43:24.293 [Ship-29] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-29 Dock 6 returned!
+2020-05-17 22:43:24.293 [Ship-30] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-30 Dock 1 returned!
+2020-05-17 22:43:24.296 [Ship-16] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-16 Departs from Dock
+2020-05-17 22:43:24.296 [Ship-19] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-19 Dock 3 returned!
+2020-05-17 22:43:24.296 [Ship-13] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-13 Dock 4 returned!
+2020-05-17 22:43:24.296 [Ship-12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-12 Dock 2 used!!
+2020-05-17 22:43:24.296 [Ship-25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-25 Dock 6 used!!
+2020-05-17 22:43:24.296 [Ship-25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-25 containers removed!!
+2020-05-17 22:43:24.296 [Ship-11] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-11 Dock 1 used!!
+2020-05-17 22:43:24.296 [Ship-16] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-16 Dock 5 returned!
+2020-05-17 22:43:24.297 [Ship-98] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-98 Dock 3 used!!
+2020-05-17 22:43:24.297 [Ship-25] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-25 Departs from Dock
+2020-05-17 22:43:24.297 [Ship-98] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-98 containers removed!!
+2020-05-17 22:43:24.297 [Ship-14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-14 Dock 4 used!!
+2020-05-17 22:43:24.297 [Ship-12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-12 containers added!
+2020-05-17 22:43:24.297 [Ship-28] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-28 Dock 5 used!!
+2020-05-17 22:43:24.297 [Ship-98] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-98 Departs from Dock
+2020-05-17 22:43:24.297 [Ship-98] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-98 Dock 3 returned!
+2020-05-17 22:43:24.298 [Ship-25] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-25 Dock 6 returned!
+2020-05-17 22:43:24.298 [Ship-11] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-11 containers added!
+2020-05-17 22:43:24.298 [Ship-11] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-11 Departs from Dock
+2020-05-17 22:43:24.298 [Ship-14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-14 containers added!
+2020-05-17 22:43:24.298 [Ship-12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-12 containers removed!!
+2020-05-17 22:43:24.306 [Ship-9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-9 Dock 3 used!!
+2020-05-17 22:43:24.307 [Ship-12] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-12 Departs from Dock
+2020-05-17 22:43:24.307 [Ship-28] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-28 containers added!
+2020-05-17 22:43:24.307 [Ship-10] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-10 Dock 6 used!!
+2020-05-17 22:43:24.307 [Ship-28] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-28 Departs from Dock
+2020-05-17 22:43:24.307 [Ship-11] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-11 Dock 1 returned!
+2020-05-17 22:43:24.307 [Ship-14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-14 containers removed!!
+2020-05-17 22:43:24.307 [Ship-12] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-12 Dock 2 returned!
+2020-05-17 22:43:24.307 [Ship-14] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-14 Departs from Dock
+2020-05-17 22:43:24.307 [Ship-28] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-28 Dock 5 returned!
+2020-05-17 22:43:24.307 [Ship-9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-9 containers added!
+2020-05-17 22:43:24.307 [Ship-9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-9 containers removed!!
+2020-05-17 22:43:24.307 [Ship-97] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-97 Dock 1 used!!
+2020-05-17 22:43:24.307 [Ship-10] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-10 containers added!
+2020-05-17 22:43:24.307 [Ship-10] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-10 Departs from Dock
+2020-05-17 22:43:24.307 [Ship-31] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-31 Dock 2 used!!
+2020-05-17 22:43:24.308 [Ship-9] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-9 Departs from Dock
+2020-05-17 22:43:24.308 [Ship-14] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-14 Dock 4 returned!
+2020-05-17 22:43:24.308 [Ship-32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-32 Dock 5 used!!
+2020-05-17 22:43:24.308 [Ship-10] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-10 Dock 6 returned!
+2020-05-17 22:43:24.308 [Ship-8] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-8 Dock 4 used!!
+2020-05-17 22:43:24.308 [Ship-8] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-8 containers removed!!
+2020-05-17 22:43:24.308 [Ship-97] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-97 containers added!
+2020-05-17 22:43:24.308 [Ship-9] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-9 Dock 3 returned!
+2020-05-17 22:43:24.308 [Ship-34] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-34 Dock 6 used!!
+2020-05-17 22:43:24.308 [Ship-8] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-8 Departs from Dock
+2020-05-17 22:43:24.308 [Ship-34] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-34 containers removed!!
+2020-05-17 22:43:24.308 [Ship-31] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-31 containers added!
+2020-05-17 22:43:24.308 [Ship-32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-32 containers added!
+2020-05-17 22:43:24.308 [Ship-34] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-34 Departs from Dock
+2020-05-17 22:43:24.308 [Ship-31] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-31 Departs from Dock
+2020-05-17 22:43:24.308 [Ship-97] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-97 containers removed!!
+2020-05-17 22:43:24.308 [Ship-7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-7 Dock 3 used!!
+2020-05-17 22:43:24.309 [Ship-8] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-8 Dock 4 returned!
+2020-05-17 22:43:24.309 [Ship-97] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-97 Departs from Dock
+2020-05-17 22:43:24.309 [Ship-32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-32 containers removed!!
+2020-05-17 22:43:24.309 [Ship-34] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-34 Dock 6 returned!
+2020-05-17 22:43:24.309 [Ship-31] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-31 Dock 2 returned!
+2020-05-17 22:43:24.309 [Ship-32] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-32 Departs from Dock
+2020-05-17 22:43:24.309 [Ship-33] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-33 Dock 4 used!!
+2020-05-17 22:43:24.309 [Ship-97] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-97 Dock 1 returned!
+2020-05-17 22:43:24.309 [Ship-37] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-37 Dock 6 used!!
+2020-05-17 22:43:24.309 [Ship-37] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-37 containers removed!!
+2020-05-17 22:43:24.309 [Ship-7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-7 containers added!
+2020-05-17 22:43:24.309 [Ship-35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-35 Dock 2 used!!
+2020-05-17 22:43:24.309 [Ship-7] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-7 Departs from Dock
+2020-05-17 22:43:24.309 [Ship-6] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-6 Dock 1 used!!
+2020-05-17 22:43:24.309 [Ship-37] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-37 Departs from Dock
+2020-05-17 22:43:24.309 [Ship-32] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-32 Dock 5 returned!
+2020-05-17 22:43:24.309 [Ship-35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-35 containers added!
+2020-05-17 22:43:24.310 [Ship-33] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-33 containers added!
+2020-05-17 22:43:24.310 [Ship-7] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-7 Dock 3 returned!
+2020-05-17 22:43:24.310 [Ship-33] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-33 Departs from Dock
+2020-05-17 22:43:24.310 [Ship-6] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-6 containers removed!!
+2020-05-17 22:43:24.310 [Ship-37] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-37 Dock 6 returned!
+2020-05-17 22:43:24.310 [Ship-2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-2 Dock 5 used!!
+2020-05-17 22:43:24.310 [Ship-6] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-6 Departs from Dock
+2020-05-17 22:43:24.310 [Ship-2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-2 containers removed!!
+2020-05-17 22:43:24.310 [Ship-36] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-36 Dock 3 used!!
+2020-05-17 22:43:24.310 [Ship-2] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-2 Departs from Dock
+2020-05-17 22:43:24.310 [Ship-36] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-36 containers removed!!
+2020-05-17 22:43:24.310 [Ship-35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-35 containers removed!!
+2020-05-17 22:43:24.311 [Ship-4] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-4 Dock 6 used!!
+2020-05-17 22:43:24.311 [Ship-35] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-35 Departs from Dock
+2020-05-17 22:43:24.311 [Ship-36] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-36 Departs from Dock
+2020-05-17 22:43:24.311 [Ship-33] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-33 Dock 4 returned!
+2020-05-17 22:43:24.311 [Ship-6] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-6 Dock 1 returned!
+2020-05-17 22:43:24.312 [Ship-1] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-1 Dock 4 used!!
+2020-05-17 22:43:24.313 [Ship-1] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-1 containers removed!!
+2020-05-17 22:43:24.313 [Ship-2] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-2 Dock 5 returned!
+2020-05-17 22:43:24.313 [Ship-35] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-35 Dock 2 returned!
+2020-05-17 22:43:24.313 [Ship-36] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-36 Dock 3 returned!
+2020-05-17 22:43:24.313 [Ship-1] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-1 Departs from Dock
+2020-05-17 22:43:24.313 [Ship-1] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-1 Dock 4 returned!
+2020-05-17 22:43:24.313 [Ship-38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-38 Dock 1 used!!
+2020-05-17 22:43:24.313 [Ship-4] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-4 containers added!
+2020-05-17 22:43:24.313 [Ship-40] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-40 Dock 5 used!!
+2020-05-17 22:43:24.313 [Ship-40] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-40 containers removed!!
+2020-05-17 22:43:24.313 [Ship-5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-5 Dock 2 used!!
+2020-05-17 22:43:24.313 [Ship-40] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-40 Departs from Dock
+2020-05-17 22:43:24.313 [Ship-5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-5 containers removed!!
+2020-05-17 22:43:24.314 [Ship-39] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-39 Dock 3 used!!
+2020-05-17 22:43:24.314 [Ship-5] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-5 Departs from Dock
+2020-05-17 22:43:24.314 [Ship-5] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-5 Dock 2 returned!
+2020-05-17 22:43:24.314 [Ship-41] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-41 Dock 4 used!!
+2020-05-17 22:43:24.314 [Ship-41] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-41 containers removed!!
+2020-05-17 22:43:24.314 [Ship-42] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-42 Dock 2 used!!
+2020-05-17 22:43:24.314 [Ship-41] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-41 Departs from Dock
+2020-05-17 22:43:24.314 [Ship-42] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-42 containers removed!!
+2020-05-17 22:43:24.314 [Ship-38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-38 containers added!
+2020-05-17 22:43:24.314 [Ship-42] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-42 Departs from Dock
+2020-05-17 22:43:24.314 [Ship-4] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-4 containers removed!!
+2020-05-17 22:43:24.314 [Ship-40] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-40 Dock 5 returned!
+2020-05-17 22:43:24.314 [Ship-39] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-39 containers added!
+2020-05-17 22:43:24.314 [Ship-41] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-41 Dock 4 returned!
+2020-05-17 22:43:24.314 [Ship-39] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-39 Departs from Dock
+2020-05-17 22:43:24.314 [Ship-39] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-39 Dock 3 returned!
+2020-05-17 22:43:24.314 [Ship-4] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-4 Departs from Dock
+2020-05-17 22:43:24.315 [Ship-38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-38 containers removed!!
+2020-05-17 22:43:24.315 [Ship-42] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-42 Dock 2 returned!
+2020-05-17 22:43:24.315 [Ship-43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-43 Dock 5 used!!
+2020-05-17 22:43:24.315 [Ship-44] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-44 Dock 4 used!!
+2020-05-17 22:43:24.315 [Ship-38] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-38 Departs from Dock
+2020-05-17 22:43:24.315 [Ship-49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-49 Dock 3 used!!
+2020-05-17 22:43:24.315 [Ship-4] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-4 Dock 6 returned!
+2020-05-17 22:43:24.315 [Ship-48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-48 Dock 2 used!!
+2020-05-17 22:43:24.315 [Ship-43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-43 containers added!
+2020-05-17 22:43:24.315 [Ship-38] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-38 Dock 1 returned!
+2020-05-17 22:43:24.315 [Ship-48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-48 containers added!
+2020-05-17 22:43:24.315 [Ship-47] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-47 Dock 6 used!!
+2020-05-17 22:43:24.315 [Ship-48] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-48 Departs from Dock
+2020-05-17 22:43:24.315 [Ship-44] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-44 containers added!
+2020-05-17 22:43:24.315 [Ship-49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-49 containers added!
+2020-05-17 22:43:24.315 [Ship-44] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-44 Departs from Dock
+2020-05-17 22:43:24.315 [Ship-43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-43 containers removed!!
+2020-05-17 22:43:24.315 [Ship-50] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-50 Dock 1 used!!
+2020-05-17 22:43:24.315 [Ship-48] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-48 Dock 2 returned!
+2020-05-17 22:43:24.315 [Ship-43] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-43 Departs from Dock
+2020-05-17 22:43:24.315 [Ship-43] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-43 Dock 5 returned!
+2020-05-17 22:43:24.315 [Ship-49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-49 containers removed!!
+2020-05-17 22:43:24.316 [Ship-44] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-44 Dock 4 returned!
+2020-05-17 22:43:24.316 [Ship-45] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-45 Dock 2 used!!
+2020-05-17 22:43:24.316 [Ship-49] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-49 Departs from Dock
+2020-05-17 22:43:24.316 [Ship-47] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-47 containers added!
+2020-05-17 22:43:24.316 [Ship-47] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-47 Departs from Dock
+2020-05-17 22:43:24.316 [Ship-45] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-45 containers removed!!
+2020-05-17 22:43:24.316 [Ship-46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-46 Dock 5 used!!
+2020-05-17 22:43:24.316 [Ship-45] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-45 Departs from Dock
+2020-05-17 22:43:24.316 [Ship-50] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-50 containers added!
+2020-05-17 22:43:24.316 [Ship-96] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-96 Dock 4 used!!
+2020-05-17 22:43:24.316 [Ship-49] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-49 Dock 3 returned!
+2020-05-17 22:43:24.316 [Ship-47] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-47 Dock 6 returned!
+2020-05-17 22:43:24.316 [Ship-45] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-45 Dock 2 returned!
+2020-05-17 22:43:24.316 [Ship-46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-46 containers added!
+2020-05-17 22:43:24.316 [Ship-50] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-50 containers removed!!
+2020-05-17 22:43:24.330 [Ship-95] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-95 Dock 3 used!!
+2020-05-17 22:43:24.330 [Ship-50] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-50 Departs from Dock
+2020-05-17 22:43:24.331 [Ship-50] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-50 Dock 1 returned!
+2020-05-17 22:43:24.331 [Ship-96] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-96 containers added!
+2020-05-17 22:43:24.331 [Ship-96] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-96 Departs from Dock
+2020-05-17 22:43:24.331 [Ship-51] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-51 Dock 6 used!!
+2020-05-17 22:43:24.331 [Ship-51] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-51 containers removed!!
+2020-05-17 22:43:24.331 [Ship-52] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-52 Dock 2 used!!
+2020-05-17 22:43:24.331 [Ship-51] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-51 Departs from Dock
+2020-05-17 22:43:24.331 [Ship-46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-46 containers removed!!
+2020-05-17 22:43:24.331 [Ship-95] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-95 containers added!
+2020-05-17 22:43:24.331 [Ship-71] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-71 Dock 1 used!!
+2020-05-17 22:43:24.331 [Ship-95] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-95 Departs from Dock
+2020-05-17 22:43:24.331 [Ship-95] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-95 Dock 3 returned!
+2020-05-17 22:43:24.331 [Ship-96] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-96 Dock 4 returned!
+2020-05-17 22:43:24.331 [Ship-46] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-46 Departs from Dock
+2020-05-17 22:43:24.331 [Ship-46] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-46 Dock 5 returned!
+2020-05-17 22:43:24.331 [Ship-52] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-52 containers added!
+2020-05-17 22:43:24.331 [Ship-51] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-51 Dock 6 returned!
+2020-05-17 22:43:24.331 [Ship-72] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-72 Dock 3 used!!
+2020-05-17 22:43:24.332 [Ship-93] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-93 Dock 4 used!!
+2020-05-17 22:43:24.332 [Ship-71] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-71 containers added!
+2020-05-17 22:43:24.332 [Ship-71] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-71 Departs from Dock
+2020-05-17 22:43:24.332 [Ship-52] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-52 containers removed!!
+2020-05-17 22:43:24.332 [Ship-75] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-75 Dock 5 used!!
+2020-05-17 22:43:24.332 [Ship-74] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-74 Dock 6 used!!
+2020-05-17 22:43:24.332 [Ship-52] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-52 Departs from Dock
+2020-05-17 22:43:24.332 [Ship-72] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-72 containers added!
+2020-05-17 22:43:24.332 [Ship-72] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-72 Departs from Dock
+2020-05-17 22:43:24.332 [Ship-93] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-93 containers added!
+2020-05-17 22:43:24.332 [Ship-72] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-72 Dock 3 returned!
+2020-05-17 22:43:24.332 [Ship-93] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-93 Departs from Dock
+2020-05-17 22:43:24.332 [Ship-93] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-93 Dock 4 returned!
+2020-05-17 22:43:24.332 [Ship-92] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-92 Dock 3 used!!
+2020-05-17 22:43:24.332 [Ship-92] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-92 containers removed!!
+2020-05-17 22:43:24.332 [Ship-71] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-71 Dock 1 returned!
+2020-05-17 22:43:24.332 [Ship-75] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-75 containers added!
+2020-05-17 22:43:24.332 [Ship-52] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-52 Dock 2 returned!
+2020-05-17 22:43:24.333 [Ship-75] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-75 Departs from Dock
+2020-05-17 22:43:24.333 [Ship-92] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-92 Departs from Dock
+2020-05-17 22:43:24.333 [Ship-74] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-74 containers added!
+2020-05-17 22:43:24.333 [Ship-75] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-75 Dock 5 returned!
+2020-05-17 22:43:24.333 [Ship-74] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-74 Departs from Dock
+2020-05-17 22:43:24.333 [Ship-74] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-74 Dock 6 returned!
+2020-05-17 22:43:24.333 [Ship-79] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-79 Dock 4 used!!
+2020-05-17 22:43:24.333 [Ship-70] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-70 Dock 1 used!!
+2020-05-17 22:43:24.333 [Ship-70] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-70 containers removed!!
+2020-05-17 22:43:24.333 [Ship-69] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-69 Dock 2 used!!
+2020-05-17 22:43:24.333 [Ship-92] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-92 Dock 3 returned!
+2020-05-17 22:43:24.333 [Ship-77] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-77 Dock 5 used!!
+2020-05-17 22:43:24.333 [Ship-70] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-70 Departs from Dock
+2020-05-17 22:43:24.333 [Ship-77] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-77 containers removed!!
+2020-05-17 22:43:24.333 [Ship-76] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-76 Dock 6 used!!
+2020-05-17 22:43:24.334 [Ship-77] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-77 Departs from Dock
+2020-05-17 22:43:24.334 [Ship-76] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-76 containers removed!!
+2020-05-17 22:43:24.334 [Ship-78] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-78 Dock 3 used!!
+2020-05-17 22:43:24.334 [Ship-76] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-76 Departs from Dock
+2020-05-17 22:43:24.334 [Ship-79] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-79 containers added!
+2020-05-17 22:43:24.334 [Ship-76] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-76 Dock 6 returned!
+2020-05-17 22:43:24.334 [Ship-69] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-69 containers added!
+2020-05-17 22:43:24.334 [Ship-70] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-70 Dock 1 returned!
+2020-05-17 22:43:24.334 [Ship-69] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-69 Departs from Dock
+2020-05-17 22:43:24.334 [Ship-77] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-77 Dock 5 returned!
+2020-05-17 22:43:24.334 [Ship-78] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-78 containers added!
+2020-05-17 22:43:24.334 [Ship-78] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-78 Departs from Dock
+2020-05-17 22:43:24.334 [Ship-79] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-79 containers removed!!
+2020-05-17 22:43:24.334 [Ship-66] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-66 Dock 6 used!!
+2020-05-17 22:43:24.334 [Ship-79] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-79 Departs from Dock
+2020-05-17 22:43:24.334 [Ship-68] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-68 Dock 1 used!!
+2020-05-17 22:43:24.338 [Ship-68] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-68 containers removed!!
+2020-05-17 22:43:24.338 [Ship-69] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-69 Dock 2 returned!
+2020-05-17 22:43:24.338 [Ship-82] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-82 Dock 5 used!!
+2020-05-17 22:43:24.338 [Ship-68] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-68 Departs from Dock
+2020-05-17 22:43:24.338 [Ship-78] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-78 Dock 3 returned!
+2020-05-17 22:43:24.338 [Ship-66] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-66 containers added!
+2020-05-17 22:43:24.338 [Ship-79] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-79 Dock 4 returned!
+2020-05-17 22:43:24.339 [Ship-67] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-67 Dock 2 used!!
+2020-05-17 22:43:24.339 [Ship-81] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-81 Dock 3 used!!
+2020-05-17 22:43:24.339 [Ship-68] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-68 Dock 1 returned!
+2020-05-17 22:43:24.339 [Ship-84] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-84 Dock 4 used!!
+2020-05-17 22:43:24.339 [Ship-82] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-82 containers added!
+2020-05-17 22:43:24.339 [Ship-82] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-82 Departs from Dock
+2020-05-17 22:43:24.339 [Ship-66] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-66 containers removed!!
+2020-05-17 22:43:24.339 [Ship-67] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-67 containers added!
+2020-05-17 22:43:24.339 [Ship-81] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-81 containers added!
+2020-05-17 22:43:24.339 [Ship-80] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-80 Dock 1 used!!
+2020-05-17 22:43:24.339 [Ship-81] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-81 Departs from Dock
+2020-05-17 22:43:24.339 [Ship-66] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-66 Departs from Dock
+2020-05-17 22:43:24.339 [Ship-81] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-81 Dock 3 returned!
+2020-05-17 22:43:24.339 [Ship-82] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-82 Dock 5 returned!
+2020-05-17 22:43:24.339 [Ship-84] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-84 containers added!
+2020-05-17 22:43:24.339 [Ship-84] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-84 Departs from Dock
+2020-05-17 22:43:24.339 [Ship-85] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-85 Dock 3 used!!
+2020-05-17 22:43:24.339 [Ship-67] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-67 containers removed!!
+2020-05-17 22:43:24.339 [Ship-66] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-66 Dock 6 returned!
+2020-05-17 22:43:24.339 [Ship-83] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-83 Dock 5 used!!
+2020-05-17 22:43:24.339 [Ship-67] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-67 Departs from Dock
+2020-05-17 22:43:24.339 [Ship-67] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-67 Dock 2 returned!
+2020-05-17 22:43:24.340 [Ship-80] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-80 containers added!
+2020-05-17 22:43:24.340 [Ship-84] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-84 Dock 4 returned!
+2020-05-17 22:43:24.340 [Ship-64] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-64 Dock 6 used!!
+2020-05-17 22:43:24.340 [Ship-85] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-85 containers added!
+2020-05-17 22:43:24.340 [Ship-85] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-85 containers removed!!
+2020-05-17 22:43:24.340 [Ship-65] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-65 Dock 2 used!!
+2020-05-17 22:43:24.340 [Ship-83] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-83 containers added!
+2020-05-17 22:43:24.340 [Ship-83] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-83 Departs from Dock
+2020-05-17 22:43:24.340 [Ship-85] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-85 Departs from Dock
+2020-05-17 22:43:24.340 [Ship-80] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-80 containers removed!!
+2020-05-17 22:43:24.340 [Ship-86] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-86 Dock 4 used!!
+2020-05-17 22:43:24.340 [Ship-80] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-80 Departs from Dock
+2020-05-17 22:43:24.340 [Ship-86] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-86 containers removed!!
+2020-05-17 22:43:24.340 [Ship-64] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-64 containers added!
+2020-05-17 22:43:24.340 [Ship-83] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-83 Dock 5 returned!
+2020-05-17 22:43:24.340 [Ship-85] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-85 Dock 3 returned!
+2020-05-17 22:43:24.340 [Ship-86] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-86 Departs from Dock
+2020-05-17 22:43:24.340 [Ship-86] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-86 Dock 4 returned!
+2020-05-17 22:43:24.340 [Ship-80] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-80 Dock 1 returned!
+2020-05-17 22:43:24.340 [Ship-65] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-65 containers added!
+2020-05-17 22:43:24.341 [Ship-65] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-65 Departs from Dock
+2020-05-17 22:43:24.341 [Ship-64] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-64 containers removed!!
+2020-05-17 22:43:24.341 [Ship-87] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-87 Dock 5 used!!
+2020-05-17 22:43:24.341 [Ship-89] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-89 Dock 3 used!!
+2020-05-17 22:43:24.341 [Ship-89] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-89 containers removed!!
+2020-05-17 22:43:24.341 [Ship-64] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-64 Departs from Dock
+2020-05-17 22:43:24.341 [Ship-88] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-88 Dock 4 used!!
+2020-05-17 22:43:24.341 [Ship-62] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-62 Dock 1 used!!
+2020-05-17 22:43:24.341 [Ship-89] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-89 Departs from Dock
+2020-05-17 22:43:24.341 [Ship-62] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-62 containers removed!!
+2020-05-17 22:43:24.341 [Ship-65] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-65 Dock 2 returned!
+2020-05-17 22:43:24.341 [Ship-87] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-87 containers added!
+2020-05-17 22:43:24.341 [Ship-64] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-64 Dock 6 returned!
+2020-05-17 22:43:24.341 [Ship-89] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-89 Dock 3 returned!
+2020-05-17 22:43:24.341 [Ship-62] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-62 Departs from Dock
+2020-05-17 22:43:24.342 [Ship-90] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-90 Dock 2 used!!
+2020-05-17 22:43:24.342 [Ship-90] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-90 containers removed!!
+2020-05-17 22:43:24.342 [Ship-88] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-88 containers added!
+2020-05-17 22:43:24.342 [Ship-90] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-90 Departs from Dock
+2020-05-17 22:43:24.342 [Ship-91] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-91 Dock 6 used!!
+2020-05-17 22:43:24.347 [Ship-88] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-88 Departs from Dock
+2020-05-17 22:43:24.347 [Ship-87] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-87 containers removed!!
+2020-05-17 22:43:24.347 [Ship-63] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-63 Dock 3 used!!
+2020-05-17 22:43:24.347 [Ship-62] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-62 Dock 1 returned!
+2020-05-17 22:43:24.347 [Ship-87] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-87 Departs from Dock
+2020-05-17 22:43:24.347 [Ship-90] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-90 Dock 2 returned!
+2020-05-17 22:43:24.347 [Ship-63] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-63 containers added!
+2020-05-17 22:43:24.347 [Ship-63] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-63 Departs from Dock
+2020-05-17 22:43:24.347 [Ship-63] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-63 Dock 3 returned!
+2020-05-17 22:43:24.347 [Ship-91] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-91 containers added!
+2020-05-17 22:43:24.347 [Ship-88] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-88 Dock 4 returned!
+2020-05-17 22:43:24.347 [Ship-61] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-61 Dock 1 used!!
+2020-05-17 22:43:24.348 [Ship-61] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-61 containers removed!!
+2020-05-17 22:43:24.348 [Ship-87] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-87 Dock 5 returned!
+2020-05-17 22:43:24.348 [Ship-60] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-60 Dock 2 used!!
+2020-05-17 22:43:24.348 [Ship-57] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-57 Dock 3 used!!
+2020-05-17 22:43:24.348 [Ship-61] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-61 Departs from Dock
+2020-05-17 22:43:24.348 [Ship-91] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-91 containers removed!!
+2020-05-17 22:43:24.348 [Ship-59] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-59 Dock 4 used!!
+2020-05-17 22:43:24.348 [Ship-59] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-59 containers removed!!
+2020-05-17 22:43:24.348 [Ship-58] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-58 Dock 5 used!!
+2020-05-17 22:43:24.348 [Ship-91] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-91 Departs from Dock
+2020-05-17 22:43:24.348 [Ship-59] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-59 Departs from Dock
+2020-05-17 22:43:24.348 [Ship-61] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-61 Dock 1 returned!
+2020-05-17 22:43:24.348 [Ship-57] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-57 containers added!
+2020-05-17 22:43:24.348 [Ship-60] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-60 containers added!
+2020-05-17 22:43:24.348 [Ship-57] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-57 Departs from Dock
+2020-05-17 22:43:24.348 [Ship-91] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-91 Dock 6 returned!
+2020-05-17 22:43:24.348 [Ship-60] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-60 Departs from Dock
+2020-05-17 22:43:24.348 [Ship-60] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-60 Dock 2 returned!
+2020-05-17 22:43:24.348 [Ship-59] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-59 Dock 4 returned!
+2020-05-17 22:43:24.348 [Ship-94] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-94 Dock 1 used!!
+2020-05-17 22:43:24.348 [Ship-57] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-57 Dock 3 returned!
+2020-05-17 22:43:24.348 [Ship-56] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-56 Dock 6 used!!
+2020-05-17 22:43:24.348 [Ship-58] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-58 containers added!
+2020-05-17 22:43:24.348 [Ship-54] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-54 Dock 2 used!!
+2020-05-17 22:43:24.348 [Ship-58] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-58 Departs from Dock
+2020-05-17 22:43:24.349 [Ship-54] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-54 containers removed!!
+2020-05-17 22:43:24.349 [Ship-55] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-55 Dock 4 used!!
+2020-05-17 22:43:24.349 [Ship-53] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-53 Dock 3 used!!
+2020-05-17 22:43:24.349 [Ship-54] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-54 Departs from Dock
+2020-05-17 22:43:24.349 [Ship-53] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-53 containers removed!!
+2020-05-17 22:43:24.349 [Ship-58] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-58 Dock 5 returned!
+2020-05-17 22:43:24.349 [Ship-94] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-94 containers added!
+2020-05-17 22:43:24.349 [Ship-56] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-56 containers added!
+2020-05-17 22:43:24.349 [Ship-56] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-56 Departs from Dock
+2020-05-17 22:43:24.349 [Ship-54] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-54 Dock 2 returned!
+2020-05-17 22:43:24.349 [Ship-55] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-55 containers added!
+2020-05-17 22:43:24.349 [Ship-55] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-55 Departs from Dock
+2020-05-17 22:43:24.349 [Ship-53] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-53 Departs from Dock
+2020-05-17 22:43:24.349 [Ship-94] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-94 containers removed!!
+2020-05-17 22:43:24.349 [Ship-56] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-56 Dock 6 returned!
+2020-05-17 22:43:24.349 [Ship-55] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-55 Dock 4 returned!
+2020-05-17 22:43:24.349 [Ship-94] INFO  com.epam.multithreading.entity.Ship - In thread...Ship-94 Departs from Dock
+2020-05-17 22:43:24.349 [Ship-94] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-94 Dock 1 returned!
+2020-05-17 22:43:24.350 [Ship-53] INFO  com.epam.multithreading.seaport.SeaPort - In thread.. Ship-53 Dock 3 returned!

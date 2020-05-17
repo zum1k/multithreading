@@ -1,18 +1,40 @@
 package com.epam.multithreading.runner;
 
-import com.epam.multithreading.entity.Container;
-import com.epam.multithreading.entity.Ship;
-import com.epam.multithreading.entity.ShipType;
+import com.epam.multithreading.exception.InvalidPathException;
+import com.epam.multithreading.parser.ShipParser;
+import com.epam.multithreading.reader.FileReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.util.Random;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Runner {
-    public static void main(String[]args) {
+    private static final Logger LOGGER = LogManager.getLogger(Runner.class);
+    private static final String FILE_PATH = "src/main/resources/res/Ships.txt";
 
-        Random r = new Random();
-        for(int n = 0; n < 50; n++){
-            Thread ship = new Thread(new Ship(ShipType.values()[r.nextInt(ShipType.values().length)], new Container()),"Ship "+n);
-            ship.start();
+    public static void main(String[] args) throws Exception {
+        Runner runner = new Runner();
+        runner.run(FILE_PATH);
+    }
+
+    private void run(String path) {
+        for (Thread t : buildShips(path)) {
+            t.start();
         }
+    }
+
+    private List<Thread> buildShips(String path) {
+        FileReader reader = new FileReader();
+        ShipParser parser = new ShipParser();
+        List<Thread> ships = new ArrayList<>();
+        try {
+            List<String> strings = reader.readStrings(path);
+            ships.addAll(parser.parseShips(strings));
+        } catch (InvalidPathException e) {
+            LOGGER.error(e.getMessage(), e);
+
+        }
+        return ships;
     }
 }
