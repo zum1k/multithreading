@@ -35,7 +35,7 @@ public class Dock {
         return false;
     }
 
-    private void uploadContainer(Ship ship) {
+    void uploadContainer(Ship ship) {
         Container container = ship.getContainer();
         List<Container> containers = new ArrayList<>();
         while (container != null) {
@@ -45,18 +45,18 @@ public class Dock {
         port.addContainers(containers);
     }
 
-    private void downloadContainer(Ship ship) {
+    void downloadContainer(Ship ship) {
         List<Container> portContainers = port.getContainers(ship.getCapacity());
         for (Container container : portContainers) {
             ship.loadContainer(container);
         }
     }
 
-    private boolean canUploadContainer(Ship ship) {
+    boolean canUploadContainer(Ship ship) {
         return SeaPort.CONTAINERS_CAPACITY > port.getContainersSize() + ship.getContainersSize();
     }
 
-    private boolean canDownloadContainer(Ship ship) {
+    boolean canDownloadContainer(Ship ship) {
         return port.getContainersSize() >= ship.getContainersSize();
     }
 }

@@ -59,7 +59,7 @@ public class SeaPort {
         for (int i = 0; i < capacity; i++) {
             containers.add(this.containers.poll());
         }
-        LOGGER.info("In thread.. " + Thread.currentThread().getName() + " containers removed!!");
+        LOGGER.info("In thread.. " + Thread.currentThread().getName() +" "+capacity+ " containers removed.");
         LOCK.unlock();
         return containers;
     }
@@ -68,7 +68,7 @@ public class SeaPort {
         LOCK.lock();
         containers.addAll(shipContainers);
         LOCK.unlock();
-        LOGGER.info("In thread.. " + Thread.currentThread().getName() + " containers added!");
+        LOGGER.info("In thread.. " + Thread.currentThread().getName() +" "+ shipContainers.size()+" containers added.");
     }
 
     public Dock getDock() {
