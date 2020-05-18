@@ -29,7 +29,7 @@ public class Runner {
         ShipParser parser = new ShipParser();
         List<Thread> ships = new ArrayList<>();
         try {
-            List<String> strings = reader.readStrings(path);
+            List<String> strings = reader.readShipStrings(path);
             ships.addAll(parser.parseShips(strings));
         } catch (InvalidPathException e) {
             LOGGER.error(e.getMessage(), e);

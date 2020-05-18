@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 public class FileReader {
     private static final Logger LOGGER = LogManager.getLogger(FileReader.class);
 
-    public List<String> readStrings(String filepath) throws InvalidPathException {
+    public List<String> readShipStrings(String filepath) throws InvalidPathException {
         List<String> lines;
         Path path = Paths.get(filepath);
         try (Stream<String> lineStream = Files.newBufferedReader(path).lines()) {
